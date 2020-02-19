@@ -7,7 +7,7 @@ function SponsorComponent({ sponsor, children }) {
     <li className="Sponsor">
       <sponsor.Link>
         {sponsor.logo ? (
-          <img src={sponsor.logo} height="50" />
+          <img src={sponsor.logo} width="200" />
         ) : (
           sponsor.name
         )}

@@ -14,7 +14,7 @@ function Sponsor({ sponsor }) {
         </sponsor.Link>
       </h1>
       {sponsor.logo && (
-        <img src={sponsor.logo} height="100" alt={sponsor.fullName} />
+        <img src={sponsor.logo} width="400" alt={sponsor.fullName} />
       )}
       {sponsor.blurb}
     </article>);

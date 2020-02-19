@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/re-gamedev.github.io/static/css/main.eb2ec404.chunk.css",
+    "main.js": "/re-gamedev.github.io/static/js/main.15dc201b.chunk.js",
+    "main.js.map": "/re-gamedev.github.io/static/js/main.15dc201b.chunk.js.map",
+    "runtime-main.js": "/re-gamedev.github.io/static/js/runtime-main.144865e5.js",
+    "runtime-main.js.map": "/re-gamedev.github.io/static/js/runtime-main.144865e5.js.map",
+    "static/js/2.130ad75a.chunk.js": "/re-gamedev.github.io/static/js/2.130ad75a.chunk.js",
+    "static/js/2.130ad75a.chunk.js.map": "/re-gamedev.github.io/static/js/2.130ad75a.chunk.js.map",
+    "index.html": "/re-gamedev.github.io/index.html",
+    "precache-manifest.01abba9fe43ffc5f4345ce270aa1d2d9.js": "/re-gamedev.github.io/precache-manifest.01abba9fe43ffc5f4345ce270aa1d2d9.js",
+    "service-worker.js": "/re-gamedev.github.io/service-worker.js",
+    "static/css/main.eb2ec404.chunk.css.map": "/re-gamedev.github.io/static/css/main.eb2ec404.chunk.css.map",
+    "static/js/2.130ad75a.chunk.js.LICENSE.txt": "/re-gamedev.github.io/static/js/2.130ad75a.chunk.js.LICENSE.txt",
+    "static/media/DigiPen_RGB_Black.png": "/re-gamedev.github.io/static/media/DigiPen_RGB_Black.773da9f0.png",
+    "static/media/red devs.jpg": "/re-gamedev.github.io/static/media/red devs.13ecacef.jpg",
+    "static/media/red jam logo.svg": "/re-gamedev.github.io/static/media/red jam logo.86d71fcf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.144865e5.js",
+    "static/js/2.130ad75a.chunk.js",
+    "static/css/main.eb2ec404.chunk.css",
+    "static/js/main.15dc201b.chunk.js"
+  ]
+}

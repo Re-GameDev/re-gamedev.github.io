@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 
 import {SignUpLink} from './links.js';
-import {EVENT_NAME} from './datas.js';
+import {EVENT_FULL_NAME} from './datas.js';
 
 import HomePage from './misc/HomePage.js';
 import AboutPage from './misc/AboutPage.js';
@@ -64,7 +64,7 @@ export default function Website() {
 
         <header>
           <Link to="/">
-            <img className="logo" src={logo} width="272" height="150" alt={EVENT_NAME} title={EVENT_NAME} />
+            <img className="logo" src={logo} width="272" height="150" alt={EVENT_FULL_NAME} title={EVENT_FULL_NAME} />
           </Link>
           <Nav />
         </header>

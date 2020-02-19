@@ -2,7 +2,7 @@
   "name": "red-jam-2020-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://re-gamedev.github.io/re-gamedev.github.io",
+  "homepage": "https://re-gamedev.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

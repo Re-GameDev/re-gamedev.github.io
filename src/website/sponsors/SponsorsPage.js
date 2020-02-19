@@ -2,6 +2,7 @@ import React from 'react';
 import Page from '../Page.js';
 import sponsorDatas from './sponsorDatas.js';
 import {ContactUsLink} from '../links.js';
+import {EVENT_NAME} from '../datas.js';
 import './SponsorsPage.css';
 
 function Sponsor({ sponsor }) {
@@ -24,7 +25,7 @@ export default function SponsorsPage() {
     <Page className="SponsorsPage">
       <article>
         <h1>
-          RED JAM Sponsors
+          {EVENT_NAME} Sponsors
         </h1>
 
         <p>

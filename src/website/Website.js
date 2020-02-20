@@ -13,6 +13,7 @@ import HomePage from './misc/HomePage.js';
 import AboutPage from './misc/AboutPage.js';
 import FaqPage from './misc/FaqPage.js';
 import LocationPage from './misc/LocationPage.js';
+import SchedulePage from './misc/SchedulePage.js';
 import SponsorsPage from './sponsors/SponsorsPage.js';
 import FourOhFourPage from './misc/FourOhFourPage.js';
 
@@ -49,6 +50,7 @@ function Nav() {
         <NavItem text="About" url="about" />
         <NavItem text="FAQ" url="faq" />
         <NavItem text="Location" url="location" />
+        <NavItem text="Schedule" url="schedule" />
         <NavItem text="Sponsors" url="sponsors" />
         <NavItem link={SignUpLink} />
       </ul>
@@ -82,6 +84,9 @@ export default function Website() {
             </Route>
             <Route exact path="/location">
               <LocationPage />
+            </Route>
+            <Route exact path="/schedule">
+              <SchedulePage />
             </Route>
             <Route exact path="/sponsors">
               <SponsorsPage />

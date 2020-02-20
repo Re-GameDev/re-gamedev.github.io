@@ -1,5 +1,6 @@
 import React from "react";
 import digiPenLogo from "./DigiPen_RGB_Black.png";
+import keywordsLogo from "./keywords-logo-full.svg";
 
 const sponsorDatas = [
   {
@@ -31,6 +32,19 @@ const sponsorDatas = [
     )
   },
   {
+    name: "Keywords Studios",
+    fullName: "Keywords Studios",
+    url: "https://www.keywordsstudios.com/",
+    logo: keywordsLogo,
+    blurb: (
+      <React.Fragment>
+        <p>
+          The video games industry represents the pinnacle of interactive digital content. At Keywords, they are using our passion for games, technology and media to create a global services platform for video games and beyond. They aim to become the “go-to” provider of technical services.
+        </p>
+      </React.Fragment>
+    )
+  },
+  {
     name: "Re: Game Dev",
     fullName: "Redmond/Eastside Game Developers",
     url: "https://join.slack.com/t/redmondgamedevelopers/shared_invite/enQtMzkwNTE3MDI2MTM1LWZlODE0NWNhYTcxMjE4MDc0YWI0ZGU3MWU4NDFmOTg3MWRhYzFlNzgwY2E4M2M3NzQ5NjQyY2EzNzJmNTI4Nzc",
@@ -44,7 +58,7 @@ const sponsorDatas = [
         </p>
       </React.Fragment>
     )
-  }
+  },
 ];
 
 sponsorDatas.forEach(data => {

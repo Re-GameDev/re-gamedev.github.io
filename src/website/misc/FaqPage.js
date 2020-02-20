@@ -5,7 +5,7 @@ import {
   EVENT_DATES,
   EVENT_HOST,
 } from '../datas.js';
-import {SignUpLink, EmailUsLink} from '../links.js';
+import {SignUpLink, EmailUsLink, VolunteerLink} from '../links.js';
 
 import './FaqPage.css';
 
@@ -30,19 +30,23 @@ export default function FaqPage() {
 
         <FAQ q="Is there an entry fee?">
           <p>
-            The entry fee is {EVENT_COST}.
+            The entry fee is {EVENT_COST}. This fee covers the cost of snacks and coffee.
+          </p>
+
+          <p>
+            You can optionally sign up for meals for an additional $30. This will cover lunch and dinner on Saturday, and breakfast and lunch on Sunday. For more information, check the schedule.
           </p>
         </FAQ>
 
         <FAQ q="When is the RED JAM?">
           <p>
-            {EVENT_DATES}. This includes overnights.
+            {EVENT_DATES}. This includes an overnight from Saturday to Sunday (but not Friday to Saturday).
           </p>
         </FAQ>
 
         <FAQ q="Will food be provided?">
           <p>
-            TBD
+            You can optionally sign up for meals for an additional $30. This will cover lunch and dinner on Saturday, and breakfast and lunch on Sunday. For more information, check the schedule.
           </p>
         </FAQ>
 
@@ -53,6 +57,13 @@ export default function FaqPage() {
 
           <p>
             <EVENT_HOST.AddressLink />
+          </p>
+        </FAQ>
+
+        <FAQ q="I'm under 18. Can I still participate?">
+          <p>
+            Yes, but participants 17 years of age or younger must be accompanied by an adult parent or guardian. The parent or guardian will also count as a participant
+              and will need to pay the applicable fees.
           </p>
         </FAQ>
 
@@ -86,9 +97,9 @@ export default function FaqPage() {
           </p>
         </FAQ>
 
-        <FAQ q="I'd like to volunteer to be a worker at RED JAM. Who do I contact?">
+        <FAQ q="I'd like to volunteer at RED JAM. What do I do?">
           <p>
-            <EmailUsLink>Email us to volunteer!</EmailUsLink>
+            <VolunteerLink />
           </p>
         </FAQ>
 
